@@ -1,6 +1,8 @@
 :root {
 --color-button: #3466b1;
 --white-color: #fdfdfd;
+--gray2-color: #ccc;
+--gray-color: #ddd;
 }
 
 /* Geral */
@@ -44,7 +46,7 @@
     }
     
     button i {
-        pointer-events: none;
+        pointer-events: none; /* é como se estivesse clicando no botão */
         color: var(--color-button);
         font-weight: bold;
     }
@@ -58,11 +60,13 @@
         display: none;
     }
 
+
+
     /* Todo Header */
 .todo-container {
     max-width: 450px;
     margin: 3rem auto 0;
-    background-color: #fdfdfd;
+    background-color: var(--white-color);
     padding: 1.5rem;
     border-radius: 15px;
   }
@@ -70,14 +74,16 @@
   .todo-container header {
     text-align: center;
     padding: 0 1rem 1rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--gray2-color);
   }
   
+
+
   /* Todo Form */
   #todo-form,
   #edit-form {
     padding: 1rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid  var(--gray2-color);
   }
   
   #todo-form p,
@@ -98,11 +104,12 @@
     margin-top: 1rem;
     color: #444;
   }
-  
+
+
   /* Todo Toolbar */
   #toolbar {
     padding: 1rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--gray2-color) ;
     display: flex;
   }
   
@@ -111,7 +118,7 @@
   }
   
   #search {
-    border-right: 1px solid #ddd;
+    border-right: 1px solid var(--gray-color);
     padding-right: 1rem;
     margin-right: 1rem;
     width: 65%;
@@ -138,13 +145,16 @@
     flex: 1;
   }
   
+
+
+
   /* Todo List */
   .todo {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 1rem 1rem;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid var(--gray-color);
     transition: 0.3s;
   }
   
@@ -162,7 +172,7 @@
   }
   
   .done h3 {
-    color: #fff;
+    color: var(--white-color);
     text-decoration: line-through;
     font-style: italic;
   }
