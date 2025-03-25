@@ -17,6 +17,7 @@
     body {
         background: rgba(0, 204, 255, 0.479);
         background-size: cover;
+        
     }
 
   
@@ -69,6 +70,7 @@
     background-color: var(--white-color);
     padding: 1.5rem;
     border-radius: 15px;
+    
   }
   
   .todo-container header {
@@ -84,6 +86,7 @@
   #edit-form {
     padding: 1rem;
     border-bottom: 1px solid  var(--gray2-color);
+    
   }
   
   #todo-form p,
@@ -156,6 +159,7 @@
     padding: 1rem 1rem;
     border-bottom: 1px solid var(--gray-color);
     transition: 0.3s;
+    
   }
   
   .todo h3 {
