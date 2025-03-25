@@ -1,4 +1,4 @@
-<h1 align="center"> Calculadora </h1>
+<h1 align="center"> Todo Filter </h1>
 
 <p align="center">
 Desenvolvimento de uma lista de tarefas simples, permitindo a edição e a filtragem.
